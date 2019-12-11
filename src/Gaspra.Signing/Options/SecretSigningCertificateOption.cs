@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 
-namespace SecretSigning.Options
+namespace Gaspra.Signing.Options
 {
     public class SecretSigningCertificateOption
     {

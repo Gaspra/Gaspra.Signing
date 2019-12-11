@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Gaspra.Signing.Interfaces;
+using Gaspra.Signing.Options;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using SecretSigning.Interfaces;
-using SecretSigning.Options;
 
-namespace SecretSigning
+namespace Gaspra.Signing
 {
     public static class SecretSigningExtensions
     {

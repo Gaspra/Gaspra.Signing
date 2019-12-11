@@ -1,12 +1,12 @@
-﻿using Microsoft.Extensions.Options;
-using SecretSigning.Interfaces;
-using SecretSigning.Options;
+﻿using Gaspra.Signing.Interfaces;
+using Gaspra.Signing.Options;
+using Microsoft.Extensions.Options;
 using System;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace SecretSigning
+namespace Gaspra.Signing
 {
     public class RsaSigning : SigningService
     {

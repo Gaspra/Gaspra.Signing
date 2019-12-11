@@ -1,4 +1,4 @@
-﻿namespace SecretSigning.Interfaces
+﻿namespace Gaspra.Signing.Interfaces
 {
     public interface SigningService
     {

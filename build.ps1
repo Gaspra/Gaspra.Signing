@@ -6,4 +6,4 @@ dotnet paket restore
 dotnet build ./src/Gaspra.Signing.sln -c Release
 
 #Pack as nuget
-dotnet pack ./src/gaspra.signing.sln -c Release -o ./.pack
+dotnet pack ./src/Gaspra.Signing.sln -c Release -o ./.pack

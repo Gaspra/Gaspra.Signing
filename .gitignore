@@ -1,6 +1,5 @@
 #Custom
 *.code-workspace
-.config/
 .pack/
 
 # User-specific files
