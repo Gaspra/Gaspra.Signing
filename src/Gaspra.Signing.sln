@@ -8,7 +8,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{8AC74A
 		..\paket.dependencies = ..\paket.dependencies
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gaspra.Signing", "Gaspra.Signing\Gaspra.Signing.csproj", "{589749B2-67B5-46F7-8E67-7D658D393961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gaspra.Signing", "Gaspra.Signing\Gaspra.Signing.csproj", "{589749B2-67B5-46F7-8E67-7D658D393961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icon", "icon", "{C96983C3-A7B4-4A7F-A173-E5C9DEFA826D}"
+	ProjectSection(SolutionItems) = preProject
+		icon.png = icon.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
