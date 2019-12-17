@@ -1,5 +1,6 @@
 # Project Name to build and pack
 $ProjectName = "Gaspra.Signing"
+$Version = "1.0.0-local"
 
 #Restore paket
 dotnet tool restore
@@ -9,4 +10,4 @@ dotnet paket restore
 dotnet build ./src/$ProjectName.sln -c Release
 
 #Pack as nuget
-dotnet pack ./src/$ProjectName.sln -c Release -o ./.pack
+dotnet pack ./src/$ProjectName.sln -c Release -o ./.pack /p:Version=$Version
